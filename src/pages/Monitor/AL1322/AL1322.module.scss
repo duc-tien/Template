@@ -1,0 +1,55 @@
+.al_1322{
+    position: relative;
+    width: 98vw;
+    height: 75vh;
+    box-shadow: 0px 2px 4px -1px rgb(0 0 0 / 0.2), 0px 4px 5px 0px rgb(0 0 0 / 0.14), 0px 1px 10px 0px rgb(0 0 0 / 0.12);
+    border-radius: 10px;
+    text-align: center;
+    h1{
+        font-size: 1.2vw;
+    }
+    .pic{
+        width: 60vw;
+        height: 55vh;
+    }
+    .container{
+        display: flex;
+        margin-left: 18vw;
+        gap: 8vw;
+    }
+    .o5d150{
+        width: 10vw;
+        height: 10vh;
+        border-radius: 10px;
+        box-shadow: 0px 2px 4px -1px rgb(0 0 0 / 0.2), 0px 4px 5px 0px rgb(0 0 0 / 0.14), 0px 1px 10px 0px rgb(0 0 0 / 0.12);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .ogt500{
+        width: 10vw;
+        height: 10vh;
+        border-radius: 10px;
+        box-shadow: 0px 2px 4px -1px rgb(0 0 0 / 0.2), 0px 4px 5px 0px rgb(0 0 0 / 0.14), 0px 1px 10px 0px rgb(0 0 0 / 0.12);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .rvp510{
+        width: 10vw;
+        height: 10vh;
+        border-radius: 10px;
+        box-shadow: 0px 2px 4px -1px rgb(0 0 0 / 0.2), 0px 4px 5px 0px rgb(0 0 0 / 0.14), 0px 1px 10px 0px rgb(0 0 0 / 0.12);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        span{
+            font-size: 1vw;
+        }
+    }
+    .wait{
+        border-bottom: 0.5px solid black;
+        font-size: 1vw;
+        font-weight: 600;
+    }
+}

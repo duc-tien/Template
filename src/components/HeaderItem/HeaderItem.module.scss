@@ -1,0 +1,113 @@
+.tittle {
+    background-color: #032B91;
+    height: 5vh;
+    width: 100vw;
+    display: flex;
+    box-shadow: 0px 2px 4px -1px rgb(0 0 0 / 0.2), 0px 4px 5px 0px rgb(0 0 0 / 0.14), 0px 1px 10px 0px rgb(0 0 0 / 0.12);
+    position: relative;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: rgba(0, 208, 255, 0.3);
+    height: 5vh;
+    display: inline-block;
+    border-radius: 1vw;
+}
+
+.namepage {
+    width: 100vw;
+    font-size: 2vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    text-align: center;
+    color: #FFF;
+}
+
+.tabbar {
+    height: 4vh;
+    width: 2.5vw;
+    border-radius: 20%;
+    margin-top: 0.5vh;
+    margin-left: 0.5vw;
+    background-color: #FFF;
+
+    i {
+        font-size: 1.5vw;
+        font-weight: 700;
+    }
+}
+
+.tabbar:hover .listMenu {
+    display: block;
+}
+
+.listMenu {
+    display: none;
+    z-index: 1;
+    height: 42vh;
+    width: 15vw;
+    box-shadow: 0px 2px 4px -1px rgb(0 0 0 / 0.2), 0px 4px 5px 0px rgb(0 0 0 / 0.14), 0px 1px 10px 0px rgb(0 0 0 / 0.12);
+    border-radius: 0vw 1vw 1vw 1vw;
+    position: absolute;
+    left: 0.5vw;
+    top: 4vh;
+    background-color: #4169E1;
+}
+
+.monitor {
+    height: 5vh;
+    width: 13vw;
+    border-radius: 1vw;
+    box-shadow: 0px 2px 4px -1px rgb(0 0 0 / 0.2), 0px 4px 5px 0px rgb(0 0 0 / 0.14), 0px 1px 10px 0px rgb(0 0 0 / 0.12);
+    background-color: #FFF;
+    margin: 3vh 0.5vw;
+
+    span {
+        height: 5vh;
+        width: 13vw;
+        font-size: 2vw;
+        font-weight: 600;
+        border-radius: 1vw;
+        display: inline-block;
+        border-radius: 1vw;
+        color: black;
+        text-decoration: none;
+        text-align: left;
+    }
+
+    i {
+        margin: 0 0.5vw;
+    }
+}
+
+.reports {
+    height: 5vh;
+    width: 13vw;
+    border-radius: 1vw;
+    box-shadow: 0px 2px 4px -1px rgb(0 0 0 / 0.2), 0px 4px 5px 0px rgb(0 0 0 / 0.14), 0px 1px 10px 0px rgb(0 0 0 / 0.12);
+    background-color: #FFF;
+    margin: 3vh 0.5vw;
+    position: relative;
+
+    span {
+        height: 5vh;
+        width: 13vw;
+        font-size: 2vw;
+        font-weight: 600;
+        border-radius: 1vw;
+        display: inline-block;
+        border-radius: 1vw;
+        color: black;
+        text-decoration: none;
+        text-align: left;
+    }
+
+    i {
+        margin: 0 0.5vw;
+    }
+}
+

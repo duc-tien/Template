@@ -1,0 +1,123 @@
+.inverter {
+    position: relative;
+    width: 32vw;
+    height: 93vh;
+    box-shadow: 0px 2px 4px -1px rgb(0 0 0 / 0.2), 0px 4px 5px 0px rgb(0 0 0 / 0.14), 0px 1px 10px 0px rgb(0 0 0 / 0.12);
+    border-radius: 10px;
+    background-color: white;
+    h1 {
+        text-align: center;
+        font-size: 2vw;
+        font-family: 'Poppin', sans-serif;
+    }
+
+    h2 {
+        text-align: center;
+        font-size: 1.1vw;
+    }
+
+    span,
+    button {
+        font-size: 1vw;
+    }
+
+    .wait {
+        font-size: 1.2vw;
+        border-bottom: 0.5px solid black;
+        font-weight: 600;
+        width: 7vw;
+    }
+
+    .status {
+        position: absolute;
+        top: 5vh;
+        left: 1vw;
+        width: 16vw;
+        height: 28vh;
+        border-radius: 1vw;
+        box-shadow: 0px 2px 4px -1px rgb(0 0 0 / 0.2), 0px 4px 5px 0px rgb(0 0 0 / 0.14), 0px 1px 10px 0px rgb(0 0 0 / 0.12);
+        .stbutton {
+            display: flex;
+            justify-content: space-around;
+            flex-direction: column;
+            height: 25vh;
+            width: 7vw;
+            gap: 0.5vw;
+        }
+        .button2 {
+            display: flex;
+            justify-content: space-around;
+            flex-direction: column;
+            height: 25vh;
+            width: 7vw;
+            position: absolute;
+            right: 0;
+            top: 2vh;
+        }
+    }
+    .picInverter{
+        height: 35vh;
+        width: 12vw;
+        position: absolute;
+        right: 0vw;
+        top: 4vh;
+    }
+    .motor {
+        position: absolute;
+        top: 34vh;
+        left: 1vw;
+        width: 16vw;
+        height: 12vh;
+        border-radius: 10px;
+        box-shadow: 0px 2px 4px -1px rgb(0 0 0 / 0.2), 0px 4px 5px 0px rgb(0 0 0 / 0.14), 0px 1px 10px 0px rgb(0 0 0 / 0.12);
+        .speed {
+            input {
+                width: 4vw;
+            }
+
+            margin-top: 1vh;
+            text-align: center;
+
+        }
+    }
+
+    .buttonInput {
+        height: 4vh;
+        width: 5vw;
+        margin-left: 0.5vw;
+        background-color: #032B91;
+        color: #FFF;
+        font-weight: 700;
+        border-radius: 0.5vw;
+        font-size: 1vw;
+        border-radius: 10px;
+        box-shadow: 0px 2px 4px -1px rgb(0 0 0 / 0.2), 0px 4px 5px 0px rgb(0 0 0 / 0.14), 0px 1px 10px 0px rgb(0 0 0 / 0.12);
+        &:hover {
+            cursor: pointer;
+            background-color: rgb(255, 155, 0, 0.6)
+        }
+    }
+
+    .buttonHandle {
+        height: 4vh;
+        width: 5vw;
+        margin-left: 0.5vw;
+        background-color: #032B91;
+        color: #FFF;
+        border-radius: 0.5vw;
+        font-size: 1.1vw;
+        font-weight: 700;
+        border-radius: 10px;
+        box-shadow: 0px 2px 4px -1px rgb(0 0 0 / 0.2), 0px 4px 5px 0px rgb(0 0 0 / 0.14), 0px 1px 10px 0px rgb(0 0 0 / 0.12);
+        &:hover {
+            cursor: pointer;
+            background-color: rgb(255, 155, 0, 0.6)
+        }
+    }
+
+    .chart {
+        position: absolute;
+        left: 1vw;
+        bottom: 0;
+    }
+}

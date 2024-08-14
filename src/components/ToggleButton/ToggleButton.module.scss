@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding:0;
+}
+.container{
+    width: fit-content;
+    height: fit-content;
+    font-size: 1vw;
+}
+.box{
+    width: fit-content;
+    height: fit-content;
+    background-color: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button{
+    background-color: #d2d2d2;
+    width: 3.3vw;
+    height: 4vh;
+    border-radius: 5vw;
+    cursor: pointer;
+    position: relative;
+    transition: 0.2s;
+}
+.button::before{
+    position: absolute;
+    content: '';
+    background-color: #FFF;
+    width: 1.5vw;
+    height: 3.2vh;
+    border-radius: 100%;
+    margin: 0.2vw;
+    transition: 0.2s;
+}
+input:checked + .button{
+    background-color: rgb(17, 255, 0);
+}
+input:checked + .button::before{
+    transform: translateX(1.4vw) ;
+}
+.check{
+    display: none;
+}

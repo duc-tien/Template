@@ -1,0 +1,137 @@
+.digital_outputs {
+    position: relative;
+    width: 30vw;
+    height: 32vh;
+    box-shadow: 0px 2px 4px -1px rgb(0 0 0 / 0.2), 0px 4px 5px 0px rgb(0 0 0 / 0.14), 0px 1px 10px 0px rgb(0 0 0 / 0.12);
+    border-radius: 10px;
+    background-color: white;
+
+    h1 {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: center;
+        font-size: 2vw
+    }
+
+    h2 {
+        font-size: 1.1vw;
+    }
+
+    .output {
+        position: absolute;
+        top: 1vh;
+        left: 0.5vw;
+        width: 8vw;
+        height: 10vh;
+    }
+
+    .lights {
+        position: absolute;
+        top: 4vh;
+        right: 5vw;
+        width: 8vw;
+        height: 5vh;
+        border-radius: 10px;
+        box-shadow: 0px 2px 4px -1px rgb(0 0 0 / 0.2), 0px 4px 5px 0px rgb(0 0 0 / 0.14), 0px 1px 10px 0px rgb(0 0 0 / 0.12);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(33, 25, 72, 0.778);
+
+    }
+
+    .button {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 1vw;
+    }
+
+    .motor {
+        position: absolute;
+        top: 8vh;
+        left: 7.5vw;
+        width: 1.5vw;
+        height: 3.5vh;
+        border-radius: 50%;
+        box-shadow: 0px 2px 4px -1px rgb(0 0 0 / 0.2), 0px 4px 5px 0px rgb(0 0 0 / 0.14), 0px 1px 10px 0px rgb(0 0 0 / 0.12);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .UGT524 {
+        position: absolute;
+        height: 14vh;
+        width: 4vw;
+        transform: rotate(90deg);
+        bottom: 8vh;
+        left: 2vw;
+    }
+
+    .distanceUGT524 {
+        width: 9vw;
+        height: 8vh;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+        border-radius: 1vw;
+        box-shadow: 0px 2px 4px -1px rgb(0 0 0 / 0.2), 0px 4px 5px 0px rgb(0 0 0 / 0.14), 0px 1px 10px 0px rgb(0 0 0 / 0.12);
+        bottom: 1vh;
+        left: 0.5vw;
+    }
+    .name{
+        font-size: 1vw;
+    }
+    .value {
+        font-size: 1.2vw;
+        font-weight: 600;
+    }
+
+    .containerUGT524 {
+        height: 5vh;
+        width: 19vw;
+        position: absolute;
+        bottom: 13vh;
+        left: 8.5vw;
+        .sliderUGT524 {
+            background-color: rgba(161, 161, 161, 0.5);
+            position: relative;
+            height: 2vh;
+            width: 19.5vw;
+            top: 1.5vh;
+        }
+
+        .valueUGT524 {
+            height: 4vh;
+            width: 0.5vw;
+            position: absolute;
+            z-index: 1;
+            background-color: #032B91;
+            border-radius: 1vw;
+            bottom: 0.5vh;
+        }
+    }
+
+    .ruler_plc {
+        position: absolute;
+        bottom: 2vh;
+        left: 8vw;
+        height: 10vh;
+        width: 21vw;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-around;
+        border-top: 0.2vh solid black;
+        font-size: 1vw;
+        gap: 0vh;
+
+        span {
+            width: 1.2vw;
+            transform: rotate(90deg);
+        }
+    }
+}
